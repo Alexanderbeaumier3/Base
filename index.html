@@ -3,18 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Notes</title>
+    <title>Note Taking App</title>
     <link rel="stylesheet" href="styles.css">
-    <link rel="script" href="script.js">
 </head>
 <body>
     <div class="container">
         <h1>Note Taking App</h1>
+        <!-- Form to add a new note -->
         <form id="note-form">
-            <input type="text" id="note-input" placeholder="Enter your note here">
+            <input type="text" id="note-input" placeholder="Enter your note here" required>
             <button type="submit">Add Note</button>
         </form>
-        <ul id="note=list"></ul>
+        <!-- Section to display the list of notes -->
+        <ul id="note-list"></ul>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
